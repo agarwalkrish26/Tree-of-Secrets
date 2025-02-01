@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% block title %}Secret Message{% endblock %}
+
+{% block content %}
+<div class="message-container">
+    <div class="scroll-container">
+        <img src="{{ url_for('static', filename='scroll.png') }}" alt="Scroll" class="scroll-image">
+        <div class="message-text">
+            {{ message }}
+        </div>
+    </div>
+    <div class="logout-wrapper">
+        <a href="{{ url_for('logout') }}" class="logout-button">Logout</a>
+    </div>
+</div>
+{% endblock %} 

@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block title %}Main{% endblock %}
+
+{% block content %}
+<div class="main-container">
+    <div class="star-container">
+        <a href="{{ url_for('message') }}">
+            <img src="{{ url_for('static', filename='gift box.png') }}" alt="Calling Card" class="calling-card">
+        </a>
+    </div>
+</div>
+{% endblock %} 
