@@ -1,6 +1,14 @@
+<div align="center">
+  <img alt="trees-of-secrets" height="200px" src="https://github.com/agarwalkrish26/Tree-of-Secrets/blob/main/static/logo.png">
+</div>
+
 # Tree of Secrets 🎄
 
 A festive web application that allows users to log in and receive personalized secret messages in a magical Christmas-themed environment.
+
+Note: 
+- Currently, the application is not hosted anywhere. It is only available locally.
+- The application is only functional for mobile devices and is not fully functional for PC yet.
 
 ## Features
 
@@ -76,4 +84,6 @@ The application uses a `config.json` file for user management and message storag
 4. Push to the branch
 5. Create a Pull Request
 
+<div align="center">
 Developed with ❤️ by Krish Agarwal 🎄
+</div>
